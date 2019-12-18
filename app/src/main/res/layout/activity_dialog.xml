@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogActivity">
+
+    <Button
+        android:id="@+id/tamanoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tamaño"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/colorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tamanoButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Lorem ipsum dolor sit amet consectetur adipiscing, elit dapibus posuere per etiam varius a, sociosqu faucibus tortor curae neque. Torquent bibendum nulla urna rutrum pulvinar habitasse sodales viverra sollicitudin, cum quis montes est ac sed scelerisque curae, litora nascetur potenti vestibulum egestas tempus felis etiam. Nostra mollis tempor nam ad quisque sem cum sed vestibulum blandit nisl curabitur non dis nibh, donec ornare urna cursus aptent dignissim arcu lacus pretium ultricies vel primis euismod.  Tempor eu conubia tristique porta ullamcorper enim suscipit etiam integer, phasellus nunc varius erat ultrices orci diam libero sollicitudin tellus, eget potenti dui duis vel fringilla montes elementum. Rutrum inceptos nec varius venenatis aptent nascetur leo natoque laoreet, quam dapibus ultricies curae libero pellentesque dui orci fames, egestas rhoncus blandit morbi sagittis nisi non curabitur. Feugiat ligula curabitur congue potenti velit montes habitasse pretium, justo facilisi nisi nisl mi penatibus mus eleifend habitant, risus dictumst a iaculis egestas accumsan varius."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
